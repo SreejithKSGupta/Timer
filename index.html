@@ -4,33 +4,34 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>sreejith's Stopwatch</title>
+  <title>My timer</title>
   <script src="main.js" defer></script>
   <link rel="stylesheet" href="main.css" />
+  <link rel="icon" href="res/start.png"/>
 </head>
 
 <body>
   <div class="watch">
     <div class="stopwatch ">
       <div class="topbar">
-        <h1><span class="gold" id="name">My</span><br>Stopwatch</h1>
+        <h1><span class="gold" id="name">My</span><br>Timer</h1>
       </div>
       <div class="circle">
         <span class="time" id="display">00:00:00</span>
       </div>
       <div class="controls">
-        <button class="buttonPlay" onclick="start()"> <img id="playButton" src="res/play.png" alt="play" /></button>
-        <button class="buttonPlay" onclick="pause()"><img id="pauseButton" src="res/pause.png" alt="pause" /></button>
-        <button class="buttonReset" onclick="reset()"><img id="resetButton" src="res/reset.png" alt="reset" /></button>
+        <button class="buttonPlay" onclick="start()"> <img id="playButton" src="res/play.png" alt="play"  title=" Start" /></button>
+        <button class="buttonPlay" onclick="pause()"><img id="pauseButton" src="res/pause.png" alt="pause"  title="Pause" /></button>
+        <button class="buttonReset" onclick="reset()"><img id="resetButton" src="res/reset.png" alt="reset"  title="Reset" /></button>
       </div>
     </div>
     <div class="progression   ">
-      <img class="trimg" src="res/tr6.png" id="tr6">
-      <img class="trimg" src="res/tr5.png" id="tr5">
-      <img class="trimg" src="res/tr4.png" id="tr4">
-      <img class="trimg" src="res/tr3.png" id="tr3">
-      <img class="trimg" src="res/tr2.png" id="tr2">
-      <img class="trimg" src="res/tr1.png" id="tr1">
+      <img class="trimg" src="res/tr6.png" id="tr6" title="6 Hr">
+      <img class="trimg" src="res/tr5.png" id="tr5" title="5 Hr">
+      <img class="trimg" src="res/tr4.png" id="tr4" title="4 Hr">
+      <img class="trimg" src="res/tr3.png" id="tr3" title="3 Hr">
+      <img class="trimg" src="res/tr2.png" id="tr2" title="2 Hr">
+      <img class="trimg" src="res/tr1.png" id="tr1" title="1 Hr">
     </div>
   </div>
   </div>

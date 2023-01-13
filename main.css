@@ -11,7 +11,7 @@ body {
 
 
 *{
-  transition-duration: 1s;
+  transition-duration: 0.5s;
 }
 
 
@@ -141,9 +141,9 @@ h1 {
   display: grid;
   justify-items: center;
   grid-row-gap:1%;
-  width: 70vw;
+  width: 60vw;
   padding-top: 1%;
-  height: 90vh;
+  height: 80vh;
 }
 
 .circle {
@@ -151,8 +151,8 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vw;
-  width:  40vw;
+  height: 30vw;
+  width:  30vw;
   border: 1vh solid;
   border-radius: 50%;
   box-shadow:  0 0 0px #fff, 0 0 50px #ebb401;
@@ -188,6 +188,18 @@ button {
   margin: 0;
   outline: none;
   padding-left: 1vw;
+  
+}
+button img{
+  width:3vw;
+  padding:1vw;
+  border-radius:50%;
+}
+button img:hover{
+  transition-duration: 0.2s;
+  width:3.5vw;
+  padding:0.5vw;
+  background-color:rgb(16, 104, 30);
 }
 
 #playButton {
