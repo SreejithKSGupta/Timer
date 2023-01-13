@@ -66,9 +66,9 @@ function timeToString(time) {
   let formattedMM = mm.toString().padStart(2, "0");
   let formattedSS = ss.toString().padStart(2, "0");
   reward( formattedhr);
-  return `<span style="color:rgb(0, 241, 32); font-size:120%">${formattedhr}</span>
-         :<span style="color:violet;font-size:110%">${formattedMM}</span>
-         :<span style="color:yellow;font-size:100%">${formattedSS}</span>`;
+  return `<div style="color:rgb(0, 241, 32); font-size:120%">${formattedhr}</div>
+         :<div style="color:violet;font-size:110%">${formattedMM}</div>
+         :<div style="color:yellow;font-size:100%">${formattedSS}</div>`;
 }
 
 

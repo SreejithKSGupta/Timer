@@ -13,116 +13,6 @@ body {
 *{
   transition-duration: 0.5s;
 }
-
-
-.todobar{
-  width:90vw;
-  background-color: #424b63;
-  border-radius: 10px;
-  height: 97vh;
-  margin-left: 2vw;
-}
-.header {
-  background-color: #f44336;
-  padding:2px;
-  color: white;
-  text-align: center;
-  margin-bottom: 2vh;
-  border-radius: 10px;
-  height: 15vh;
-  font-size:6vh;
-}
-
-.todo-input {
-  margin: 0;
-  border: none;
-  border-radius: 5px;
-  width: 80%;
-  padding: 2px;
-  float: left;
-  font-size: 2vw;
-  padding-left: 10px;
-  height: 7vh;
-  margin-left: 1vw;
-}
-
-.add-button {
-  width: 5%;
-  float: right;
-  margin-right: 10%;
-  margin-top: 2vh;
-
-}
-
-#addBtn:hover {
-  background-color: #bbb;
-}
-ul {
-  max-height: 77vh;
-  margin: 0;
-  padding: 0;
-  list-style-type:none;
-  overflow-y: scroll;
-  overflow-wrap:break-word;
-  
-}
-
-ul li {
-  margin: 1vh;
-  cursor: pointer;
-  position: relative;
-  padding:2px;
-  background: rgb(168, 168, 168);
-  font-size: 4vh;
-  transition: 0.2s;
-  height: 6vh;
-  color: #1c1f29;
-  border-radius: 2px;
-  margin-bottom: 1vh;
-  color: #fff;
- 
-
-
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-ul li:nth-child(odd) {
-  background: #646464;
-}
-
-ul li:hover {
-  background: rgb(39, 39, 39);
-  color: #bbb;
-}
-
-
-.checkbox{
-  margin-left: 0px;
-  float: left;
-}
-
-.delete-button {
-  float: right;
-  background-color: #89c964;
-  border: none;
-  outline: none;
-  border-radius: 3px;
-  padding:1px;
-  font-weight: 550;
-  height: 6vh;
-  width: 6vh;
-}
-
-
-.checked { 
-  text-decoration: line-through;
-  color: #272729;
-}
-
-
 .topbar{
   height: 12vh; 
 }
@@ -159,7 +49,11 @@ h1 {
   background: url(circle.jpg);
   background-size: cover;
 }
-
+#display{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 .time {
   font-family: "Roboto Mono", monospace;
   font-weight: 300; 
