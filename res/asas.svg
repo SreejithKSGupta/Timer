@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="256px" height="256px">
+<g>
+<ellipse cx="113px" cy="93px" rx="45px" ry="45px" stroke="#ffffff" stroke-width="10" stroke-opacity="1" />
+<path fill="none" stroke-width="6" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M 80.6248 125.827 C 81.9649 125.791 83.3051 125.754 88.0136 112.353 C 92.7221 98.9517 100.799 72.1856 108.876 45.4194" />
+<path fill="none" stroke-width="6" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M 110.615 45.854 C 146.938 71.1249 145.293 101.083 143.647 131.042" />
+<path fill="none" stroke-width="8" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M 121.915 80.6248 C 118.547 78.017 115.178 75.4092 111.484 75.8438 C 107.79 76.2784 103.769 79.7555 99.7487 83.2326" />
+<path fill="none" stroke-width="11" stroke="#ffffff" stroke-linecap="round" stroke-linejoin="round" d="M 120.177 78.017 C 112.824 77.9278 105.471 77.8386 101.487 81.0594 C 97.5035 84.2802 96.8896 90.811 96.7063 94.9677 C 96.523 99.1244 96.7701 100.907 100.183 102.791 C 103.596 104.675 110.174 106.66 114.526 107.572 C 118.878 108.484 121.002 108.323 124.523 108.876 C 128.044 109.429 132.96 110.696 136.258 114.526 C 139.556 118.356 141.236 124.748 139.735 129.304 C 138.234 133.86 133.551 136.581 128.869 139.301" />
+</g>
+</svg>
